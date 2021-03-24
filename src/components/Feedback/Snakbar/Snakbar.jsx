@@ -24,6 +24,7 @@ function Snakbar({
         color={color === "secondary" ? "primary" : "secondary"}
         disableElevation
         onClick={onClick}
+        size="small"
       >
         Undo
       </Button>
